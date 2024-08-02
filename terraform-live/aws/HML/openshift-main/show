@@ -1,0 +1,1608 @@
+[0m# module.worker-nodes.aws_ebs_volume.dp[1]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-02f0e411a3224f7be"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-02f0e411a3224f7be"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node2-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node2-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.dp[2]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-018acf1cf4ef10631"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-018acf1cf4ef10631"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node3-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node3-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.dp[3]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-0cf64eb2af23b4cdd"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-0cf64eb2af23b4cdd"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node4-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node4-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.dp[4]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-053525a85e95181b1"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-053525a85e95181b1"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node5-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node5-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.dp[5]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-0c28588a54e64dcc9"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-0c28588a54e64dcc9"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node6-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node6-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.dp[6]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-000eb4fa3df8713ac"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-000eb4fa3df8713ac"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node7-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node7-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.dp[0]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-08c59dad95eb92461"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-08c59dad95eb92461"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node1-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node1-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[1]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-041606dc95e5280e6"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-041606dc95e5280e6"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node2-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node2-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[2]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-096bebc41bc40ee8a"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-096bebc41bc40ee8a"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node3-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node3-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[3]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-0012f62bcad6eec49"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-0012f62bcad6eec49"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node4-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node4-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[4]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-01985261869c1f092"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-01985261869c1f092"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node5-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node5-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[5]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-03da499be882688aa"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-03da499be882688aa"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node6-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node6-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[6]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-08f640ea6291ea461"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-08f640ea6291ea461"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node7-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node7-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_ebs_volume.var[0]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-076d82d37a133cf92"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-076d82d37a133cf92"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-node1-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-node1-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.worker-nodes.aws_instance.os[4]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-0d765130cc86567ff"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-0d765130cc86567ff"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-0bca54a9e089b56d9"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-8-172.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.8.172"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-18-206-71-206.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "18.206.71.206"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node5"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node5"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node5-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-053525a85e95181b1"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node5-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-01985261869c1f092"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0cafd5325357e218d"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_instance.os[5]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-00c94bc2a1414d336"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-00c94bc2a1414d336"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-014319bf0ac849e94"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-5-104.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.5.104"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-3-80-159-46.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "3.80.159.46"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node6"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node6"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0ec1fad92a6b06375"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_instance.os[6]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-0ab34f1a72caff144"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-0ab34f1a72caff144"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-00aa1d0b65b57b23b"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-6-16.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.6.16"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-3-219-168-111.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "3.219.168.111"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node7"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node7"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-06088b85e310e4b5f"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_instance.os[0]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-0b6900f0bdc2db3a6"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-0b6900f0bdc2db3a6"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-08f67102e475bb25e"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-3-216.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.3.216"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-34-201-26-123.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "34.201.26.123"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node1"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node1"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node1-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-08c59dad95eb92461"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node1-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-076d82d37a133cf92"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0aac76f9c8f446c7c"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_instance.os[1]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-0e781bda7f348091c"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-0e781bda7f348091c"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-01228b786f4780dd8"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-4-134.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.4.134"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-3-236-196-203.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "3.236.196.203"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node2"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node2"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node2-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-02f0e411a3224f7be"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node2-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-041606dc95e5280e6"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0c7bf6e8222e96403"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_instance.os[2]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-054ca81527a741018"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-054ca81527a741018"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-02624316b0862697c"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-14-186.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.14.186"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-44-204-246-164.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "44.204.246.164"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node3"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node3"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node3-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-018acf1cf4ef10631"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node3-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-096bebc41bc40ee8a"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0c3ceef22ccc0f8ba"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_instance.os[3]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-0cd6a2253d9510640"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-0cd6a2253d9510640"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-057cbb97d61558916"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-2-139.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.2.139"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-3-215-134-12.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "3.215.134.12"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-node4"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-node4"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node4-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0cf64eb2af23b4cdd"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-node4-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0012f62bcad6eec49"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0f21320f2d5711d73"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[5]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-3313863618"
+    [1m[0minstance_id[0m[0m = "i-00c94bc2a1414d336"
+    [1m[0mvolume_id[0m[0m   = "vol-0c28588a54e64dcc9"
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[6]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-3618147302"
+    [1m[0minstance_id[0m[0m = "i-0ab34f1a72caff144"
+    [1m[0mvolume_id[0m[0m   = "vol-000eb4fa3df8713ac"
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[0]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-2224903161"
+    [1m[0minstance_id[0m[0m = "i-0b6900f0bdc2db3a6"
+    [1m[0mvolume_id[0m[0m   = "vol-08c59dad95eb92461"
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[1]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-3440612590"
+    [1m[0minstance_id[0m[0m = "i-0e781bda7f348091c"
+    [1m[0mvolume_id[0m[0m   = "vol-02f0e411a3224f7be"
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[2]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-3941676669"
+    [1m[0minstance_id[0m[0m = "i-054ca81527a741018"
+    [1m[0mvolume_id[0m[0m   = "vol-018acf1cf4ef10631"
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[3]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-3319478314"
+    [1m[0minstance_id[0m[0m = "i-0cd6a2253d9510640"
+    [1m[0mvolume_id[0m[0m   = "vol-0cf64eb2af23b4cdd"
+}
+
+# module.worker-nodes.aws_volume_attachment.dp_ec2[4]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-1919863352"
+    [1m[0minstance_id[0m[0m = "i-0d765130cc86567ff"
+    [1m[0mvolume_id[0m[0m   = "vol-053525a85e95181b1"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[1]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-188903262"
+    [1m[0minstance_id[0m[0m = "i-0e781bda7f348091c"
+    [1m[0mvolume_id[0m[0m   = "vol-041606dc95e5280e6"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[2]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-3537118580"
+    [1m[0minstance_id[0m[0m = "i-054ca81527a741018"
+    [1m[0mvolume_id[0m[0m   = "vol-096bebc41bc40ee8a"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[3]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-2776142568"
+    [1m[0minstance_id[0m[0m = "i-0cd6a2253d9510640"
+    [1m[0mvolume_id[0m[0m   = "vol-0012f62bcad6eec49"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[4]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-2191299320"
+    [1m[0minstance_id[0m[0m = "i-0d765130cc86567ff"
+    [1m[0mvolume_id[0m[0m   = "vol-01985261869c1f092"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[5]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-1019916385"
+    [1m[0minstance_id[0m[0m = "i-00c94bc2a1414d336"
+    [1m[0mvolume_id[0m[0m   = "vol-03da499be882688aa"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[6]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-2354177520"
+    [1m[0minstance_id[0m[0m = "i-0ab34f1a72caff144"
+    [1m[0mvolume_id[0m[0m   = "vol-08f640ea6291ea461"
+}
+
+# module.worker-nodes.aws_volume_attachment.var_ec2[0]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-2419584439"
+    [1m[0minstance_id[0m[0m = "i-0b6900f0bdc2db3a6"
+    [1m[0mvolume_id[0m[0m   = "vol-076d82d37a133cf92"
+}
+
+
+
+# module.load-balancer.aws_instance.os[0]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-054466de28f6b2ebf"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 2
+    [1m[0mcpu_threads_per_core[0m[0m                 = 1
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-054466de28f6b2ebf"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "t2.medium"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-089020203f6d339c9"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-4-83.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.4.83"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-34-237-80-145.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "34.237.80.145"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-lb"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-lb"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    credit_specification {
+        [1m[0mcpu_credits[0m[0m = "standard"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-06a521827785ea2c3"
+        [1m[0mvolume_size[0m[0m           = 20
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+
+# module.master-nodes.aws_ebs_volume.dp[0]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-03ae7cddc7b7e0a29"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1a"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-03ae7cddc7b7e0a29"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-master1-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-master1-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.master-nodes.aws_ebs_volume.dp[1]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-04ec5a6fd3ef447bd"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1b"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-04ec5a6fd3ef447bd"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-master2-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-master2-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.master-nodes.aws_ebs_volume.dp[2]:
+resource "aws_ebs_volume" "dp" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-0e25b23fac9f8375a"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-0e25b23fac9f8375a"
+    [1m[0miops[0m[0m                 = 180
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 60
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-master3-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-master3-docker-pool"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.master-nodes.aws_ebs_volume.var[2]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-0d10acea49e85431d"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1c"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-0d10acea49e85431d"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-master3-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-master3-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.master-nodes.aws_ebs_volume.var[0]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-0aa0aa94ed0ddcbd7"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1a"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-0aa0aa94ed0ddcbd7"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-master1-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-master1-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.master-nodes.aws_ebs_volume.var[1]:
+resource "aws_ebs_volume" "var" {
+    [1m[0marn[0m[0m                  = "arn:aws:ec2:us-east-1:586183866151:volume/vol-03fbb81bf5c114fe8"
+    [1m[0mavailability_zone[0m[0m    = "us-east-1b"
+    [1m[0mencrypted[0m[0m            = false
+    [1m[0mid[0m[0m                   = "vol-03fbb81bf5c114fe8"
+    [1m[0miops[0m[0m                 = 270
+    [1m[0mmulti_attach_enabled[0m[0m = false
+    [1m[0msize[0m[0m                 = 90
+    [1m[0mtags[0m[0m                 = {
+        "Name"                                    = "okd3-hom-master2-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m             = {
+        "Name"                                    = "okd3-hom-master2-var"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mthroughput[0m[0m           = 0
+    [1m[0mtype[0m[0m                 = "gp2"
+}
+
+# module.master-nodes.aws_instance.os[2]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-03499cf23ed5ed88e"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1c"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-03499cf23ed5ed88e"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-037b9629a143fafb7"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-7-77.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.7.77"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-44-201-60-159.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "44.201.60.159"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-7addd81d"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-master3"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-master3"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-master3-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0e25b23fac9f8375a"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-master3-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0d10acea49e85431d"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0abe30034c075ca94"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.master-nodes.aws_instance.os[0]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-08fe15f1dca96efc6"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1a"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-08fe15f1dca96efc6"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-006efe1c50e21c6fe"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-16-77.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.16.77"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-54-234-117-230.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "54.234.117.230"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-432bfe0e"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-master1"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-master1"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-master1-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-03ae7cddc7b7e0a29"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-master1-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-0aa0aa94ed0ddcbd7"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-02529bf43aa6160c3"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.master-nodes.aws_instance.os[1]:
+resource "aws_instance" "os" {
+    [1m[0mami[0m[0m                                  = "ami-d5bf2caa"
+    [1m[0marn[0m[0m                                  = "arn:aws:ec2:us-east-1:586183866151:instance/i-004f2fcc3fccf7c84"
+    [1m[0massociate_public_ip_address[0m[0m          = true
+    [1m[0mavailability_zone[0m[0m                    = "us-east-1b"
+    [1m[0mcpu_core_count[0m[0m                       = 4
+    [1m[0mcpu_threads_per_core[0m[0m                 = 2
+    [1m[0mdisable_api_termination[0m[0m              = false
+    [1m[0mebs_optimized[0m[0m                        = false
+    [1m[0mget_password_data[0m[0m                    = false
+    [1m[0mhibernation[0m[0m                          = false
+    [1m[0mid[0m[0m                                   = "i-004f2fcc3fccf7c84"
+    [1m[0minstance_initiated_shutdown_behavior[0m[0m = "stop"
+    [1m[0minstance_state[0m[0m                       = "running"
+    [1m[0minstance_type[0m[0m                        = "c5.2xlarge"
+    [1m[0mipv6_address_count[0m[0m                   = 0
+    [1m[0mipv6_addresses[0m[0m                       = []
+    [1m[0mkey_name[0m[0m                             = "default_hom"
+    [1m[0mmonitoring[0m[0m                           = false
+    [1m[0mprimary_network_interface_id[0m[0m         = "eni-026784d8af6c007e1"
+    [1m[0mprivate_dns[0m[0m                          = "ip-172-31-41-173.ec2.internal"
+    [1m[0mprivate_ip[0m[0m                           = "172.31.41.173"
+    [1m[0mpublic_dns[0m[0m                           = "ec2-35-173-222-118.compute-1.amazonaws.com"
+    [1m[0mpublic_ip[0m[0m                            = "35.173.222.118"
+    [1m[0msecondary_private_ips[0m[0m                = []
+    [1m[0msecurity_groups[0m[0m                      = [
+        "default",
+    ]
+    [1m[0msource_dest_check[0m[0m                    = true
+    [1m[0msubnet_id[0m[0m                            = "subnet-35969069"
+    [1m[0mtags[0m[0m                                 = {
+        "Name"                                    = "okd3-hom-master2"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtags_all[0m[0m                             = {
+        "Name"                                    = "okd3-hom-master2"
+        "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+    }
+    [1m[0mtenancy[0m[0m                              = "default"
+    [1m[0mvpc_security_group_ids[0m[0m               = [
+        "sg-75fd6f27",
+    ]
+
+    capacity_reservation_specification {
+        [1m[0mcapacity_reservation_preference[0m[0m = "open"
+    }
+
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdh"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 180
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-master2-docker-pool"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-04ec5a6fd3ef447bd"
+        [1m[0mvolume_size[0m[0m           = 60
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+    ebs_block_device {
+        [1m[0mdelete_on_termination[0m[0m = false
+        [1m[0mdevice_name[0m[0m           = "/dev/sdi"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 270
+        [1m[0mtags[0m[0m                  = {
+            "Name"                                    = "okd3-hom-master2-var"
+            "kubernetes.io/cluster/dotgroup-okd3-hom" = "owned"
+        }
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-03fbb81bf5c114fe8"
+        [1m[0mvolume_size[0m[0m           = 90
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+
+    enclave_options {
+        [1m[0menabled[0m[0m = false
+    }
+
+    metadata_options {
+        [1m[0mhttp_endpoint[0m[0m               = "enabled"
+        [1m[0mhttp_put_response_hop_limit[0m[0m = 1
+        [1m[0mhttp_tokens[0m[0m                 = "optional"
+        [1m[0minstance_metadata_tags[0m[0m      = "disabled"
+    }
+
+    root_block_device {
+        [1m[0mdelete_on_termination[0m[0m = true
+        [1m[0mdevice_name[0m[0m           = "/dev/sda1"
+        [1m[0mencrypted[0m[0m             = false
+        [1m[0miops[0m[0m                  = 100
+        [1m[0mtags[0m[0m                  = {}
+        [1m[0mthroughput[0m[0m            = 0
+        [1m[0mvolume_id[0m[0m             = "vol-06822a7f402f001f4"
+        [1m[0mvolume_size[0m[0m           = 10
+        [1m[0mvolume_type[0m[0m           = "gp2"
+    }
+}
+
+# module.master-nodes.aws_volume_attachment.dp_ec2[1]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-3207259334"
+    [1m[0minstance_id[0m[0m = "i-004f2fcc3fccf7c84"
+    [1m[0mvolume_id[0m[0m   = "vol-04ec5a6fd3ef447bd"
+}
+
+# module.master-nodes.aws_volume_attachment.dp_ec2[2]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-2290687382"
+    [1m[0minstance_id[0m[0m = "i-03499cf23ed5ed88e"
+    [1m[0mvolume_id[0m[0m   = "vol-0e25b23fac9f8375a"
+}
+
+# module.master-nodes.aws_volume_attachment.dp_ec2[0]:
+resource "aws_volume_attachment" "dp_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdh"
+    [1m[0mid[0m[0m          = "vai-1234584609"
+    [1m[0minstance_id[0m[0m = "i-08fe15f1dca96efc6"
+    [1m[0mvolume_id[0m[0m   = "vol-03ae7cddc7b7e0a29"
+}
+
+# module.master-nodes.aws_volume_attachment.var_ec2[1]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-1257538460"
+    [1m[0minstance_id[0m[0m = "i-004f2fcc3fccf7c84"
+    [1m[0mvolume_id[0m[0m   = "vol-03fbb81bf5c114fe8"
+}
+
+# module.master-nodes.aws_volume_attachment.var_ec2[2]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-1606955785"
+    [1m[0minstance_id[0m[0m = "i-03499cf23ed5ed88e"
+    [1m[0mvolume_id[0m[0m   = "vol-0d10acea49e85431d"
+}
+
+# module.master-nodes.aws_volume_attachment.var_ec2[0]:
+resource "aws_volume_attachment" "var_ec2" {
+    [1m[0mdevice_name[0m[0m = "/dev/sdi"
+    [1m[0mid[0m[0m          = "vai-912475563"
+    [1m[0minstance_id[0m[0m = "i-08fe15f1dca96efc6"
+    [1m[0mvolume_id[0m[0m   = "vol-0aa0aa94ed0ddcbd7"
+}[0m[0m

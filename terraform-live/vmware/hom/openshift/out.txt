@@ -1,0 +1,150 @@
+[0m[1mmodule.provider-config.vsphere_tag.tag: Refreshing state... [id=urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_worker[4]: Refreshing state... [id=420090db-a8a6-7a26-9974-0cf0896daab5][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_master[0]: Refreshing state... [id=420012d8-dead-b544-0af1-44ee4021e401][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_worker[3]: Refreshing state... [id=42004f41-7c45-92af-f707-208d4e5f1c59][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_worker[0]: Refreshing state... [id=4200464d-a9b1-87d1-94f8-59ac91d754d1][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_worker[5]: Refreshing state... [id=42008ea0-d324-b4ed-2917-8ca355c88f57][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_worker[1]: Refreshing state... [id=4200518c-93ef-6a40-d85d-9a5760c4097e][0m
+[0m[1mmodule.openshift.vsphere_virtual_machine.os_worker[2]: Refreshing state... [id=42001640-c369-b0f1-60d7-99cdae04f196][0m
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  [33m~[0m update in-place
+[0m
+Terraform will perform the following actions:
+
+[1m  # module.openshift.vsphere_virtual_machine.os_master[0][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_master" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Master
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:20:49 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+        [1m[0mid[0m[0m                                      = "420012d8-dead-b544-0af1-44ee4021e401"
+        [1m[0mname[0m[0m                                    = "adh-okd-master1"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (66 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.openshift.vsphere_virtual_machine.os_worker[0][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_worker" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Worker
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:35:01 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+      [31m-[0m [0m[1m[0menable_disk_uuid[0m[0m                        = true [90m->[0m [0m[90mnull[0m[0m
+        [1m[0mid[0m[0m                                      = "4200464d-a9b1-87d1-94f8-59ac91d754d1"
+        [1m[0mname[0m[0m                                    = "adh-okd-node1"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (65 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.openshift.vsphere_virtual_machine.os_worker[1][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_worker" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Worker
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:20:49 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+        [1m[0mid[0m[0m                                      = "4200518c-93ef-6a40-d85d-9a5760c4097e"
+        [1m[0mname[0m[0m                                    = "adh-okd-node2"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (66 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.openshift.vsphere_virtual_machine.os_worker[2][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_worker" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Worker
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:25:06 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+        [1m[0mid[0m[0m                                      = "42001640-c369-b0f1-60d7-99cdae04f196"
+        [1m[0mname[0m[0m                                    = "adh-okd-node3"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (66 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.openshift.vsphere_virtual_machine.os_worker[3][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_worker" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Worker
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:27:43 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+        [1m[0mid[0m[0m                                      = "42004f41-7c45-92af-f707-208d4e5f1c59"
+        [1m[0mname[0m[0m                                    = "adh-okd-node4"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (66 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.openshift.vsphere_virtual_machine.os_worker[4][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_worker" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Worker
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:22:15 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+        [1m[0mid[0m[0m                                      = "420090db-a8a6-7a26-9974-0cf0896daab5"
+        [1m[0mname[0m[0m                                    = "adh-okd-node5"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (66 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[1m  # module.openshift.vsphere_virtual_machine.os_worker[5][0m will be updated in-place[0m[0m
+[0m  [33m~[0m[0m resource "vsphere_virtual_machine" "os_worker" {
+      [33m~[0m [0m[1m[0mannotation[0m[0m                              = <<-EOT
+            OpenShift Worker
+          [31m-[0m [0mVeeam Backup:  Job name: [BACKUP_DC_OPENSHIFT_HOM_7D], Time: [2/14/2023 7:29:49 PM], Backup host: [INF-DC-PRD-BKPL], Backup folder: [[inf-dc-prd-bkpL3] E:\Backup\BACKUP_DC_OPENSHIFT_HOM_7D]
+        EOT
+        [1m[0mid[0m[0m                                      = "42008ea0-d324-b4ed-2917-8ca355c88f57"
+        [1m[0mname[0m[0m                                    = "adh-okd-node6"
+        [1m[0mtags[0m[0m                                    = [
+            "urn:vmomi:InventoryServiceTag:f536045b-a167-4f79-81e5-b413655c7dd0:GLOBAL",
+        ]
+        [90m# (66 unchanged attributes hidden)[0m[0m
+
+
+
+        [90m# (4 unchanged blocks hidden)[0m[0m
+    }
+
+[0m[1mPlan:[0m 0 to add, 7 to change, 0 to destroy.[0m
+
+------------------------------------------------------------------------
+
+Note: You didn't specify an "-out" parameter to save this plan, so Terraform
+can't guarantee that exactly these actions will be performed if
+"terraform apply" is subsequently run.
+
